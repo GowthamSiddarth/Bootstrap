@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <title>Bootstrap</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
 </head>
+
 <body>
     <div class="container-fluid">
         <div class="row">
@@ -14,12 +16,22 @@
             <div class="col-md-8">col2</div>
         </div>
         <div class="row">
-            <div class="col-md-4"><h3>h3</h3></div>
-            <div class="col-md-8"><h3 class="display-3">h3 <small>Display</small></h3></div>
+            <div class="col-md-4">
+                <h3>h3</h3>
+            </div>
+            <div class="col-md-8">
+                <h3 class="display-3">h3
+                    <small>Display</small>
+                </h3>
+            </div>
         </div>
         <div class="row">
-            <div class="col-md-6"><mark>Highlight text</mark></div>
-            <div class="col-md-6"><abbr title="Abbreviation">Abbr</abbr></div>
+            <div class="col-md-6">
+                <mark>Highlight text</mark>
+            </div>
+            <div class="col-md-6">
+                <abbr title="Abbreviation">Abbr</abbr>
+            </div>
         </div>
         <div class="row">
             <div class="col-md-6 text-center">
@@ -38,8 +50,8 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-12">
-                <table class="table-bordered table-hover">
+            <div class="col-md-6">
+                <table class="table table-hover">
                     <tr>
                         <th>Programming Language</th>
                         <th>Creator</th>
@@ -58,10 +70,35 @@
                     </tr>
                 </table>
             </div>
+            <div class="col-md-6">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Framework</th>
+                            <th>Created By</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="success">
+                            <td>Angular</td>
+                            <td>Google</td>
+                        </tr>
+                        <tr class="active">
+                            <td>React</td>
+                            <td>Facebook</td>
+                        </tr>
+                        <tr class="info">
+                            <td>Android</td>
+                            <td>Google</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 </body>
+
 </html>
